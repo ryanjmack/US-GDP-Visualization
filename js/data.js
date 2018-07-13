@@ -2,7 +2,7 @@
   Exports an object which contains data used for the bar chart
 */
 
-export const data = {
+export const dataset = {
   errors: {},
   id: 120140,
   source_name: "Federal Reserve Economic Data",
