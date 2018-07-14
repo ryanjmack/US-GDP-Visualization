@@ -32,6 +32,8 @@ body {
   fill: purple; }
   .bar:hover {
     fill: brown; }
+  .bar title {
+    width: 10em; }
 
 main {
   -webkit-box-align: center;
