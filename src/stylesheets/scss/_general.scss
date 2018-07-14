@@ -22,3 +22,11 @@ body {
   padding: 0;
   width: 100%;
 }
+
+.bar {
+  fill: purple;
+
+  &:hover {
+    fill: brown;
+  }
+}
