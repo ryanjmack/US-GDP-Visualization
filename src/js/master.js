@@ -35,4 +35,4 @@ svg.selectAll('rect')
    .attr('width', width / dataset.length)
    .attr('height', d => height - yScale(d.amount))
    .append('title')
-   .text(d => `${d.year}: Quarter ${d.quarter}\n$${d.amount} Billions`);
+   .text(d => `${d.year}: Quarter ${d.quarter}\n$${(d.amount).toLocaleString()} Billion`);
