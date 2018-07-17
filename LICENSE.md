@@ -1,4 +1,4 @@
-[frontend-boilerplate] License
+[US-GDP-Visualization] License
 MIT License
 Copyright © 2018
 
