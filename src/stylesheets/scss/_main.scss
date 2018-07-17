@@ -18,3 +18,16 @@ main {
     text-align: center;
   }
 }
+
+// bar-chart bar
+.bar {
+  fill: $bar-fill;
+
+  &:hover {
+    fill: $bar-fill--hover;
+  }
+
+  title{
+    width: 10em;
+  }
+}
