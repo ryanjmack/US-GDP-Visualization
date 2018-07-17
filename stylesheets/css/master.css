@@ -16,7 +16,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ddd;
+  background-color: #d5d5d5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,18 +28,11 @@ body {
   padding: 0;
   width: 100%; }
 
-.bar {
-  fill: purple; }
-  .bar:hover {
-    fill: brown; }
-  .bar title {
-    width: 10em; }
-
 main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fafafa;
+  background-color: #f2f2f2;
   -webkit-box-shadow: 1px 1px 3px 0px #747474;
           box-shadow: 1px 1px 3px 0px #747474;
   color: #222;
@@ -58,5 +51,12 @@ main {
     font-weight: lighter;
     margin-top: 0;
     text-align: center; }
+
+.bar {
+  fill: #3191d4; }
+  .bar:hover {
+    fill: #46ea3b; }
+  .bar title {
+    width: 10em; }
 
 /*# sourceMappingURL=master.css.map */
